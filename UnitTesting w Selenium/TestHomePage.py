@@ -10,7 +10,7 @@ class HomePageTest(unittest.TestCase):
 
 	@classmethod
 	def setUp(inst):
-		# create a new Firefox session
+		# create a new Chrome session
 		inst.driver = webdriver.Chrome(driverPath)
 		inst.driver.implicitly_wait(30)
 		inst.driver.maximize_window()
