@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "Magic 8 Ball",
+	"version": "1.0",
+	"description": "Displays a random 'yes/no'-esque response upon activation",
+	
+	"icons": {
+		"128": "8ball.png"
+	},
+	
+	"browser_action": {
+		"default_icon": {
+			"128": "8ball.png"
+		},
+		"default_title": "Magic 8 Ball",
+		"default_popup": "8ballpopup.html"
+	}
+	
+}
